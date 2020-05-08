@@ -1,0 +1,15 @@
+{
+  "name": "retweet-bot",
+  "version": "1.0.0",
+  "description": "Retweets de posts de outros usuarios",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./twit-bot/twbot.js"
+  },
+  "author": "Patrick",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
